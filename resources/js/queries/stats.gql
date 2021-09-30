@@ -1,0 +1,10 @@
+query Stats($country: String) {
+    stats(country: $country) {
+        new_confirmed
+        total_confirmed
+        new_deaths
+        total_deaths
+        new_recovered
+        total_recovered
+    }
+}
